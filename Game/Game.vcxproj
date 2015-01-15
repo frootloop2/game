@@ -84,13 +84,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="gameplayState.cpp" />
     <ClCompile Include="item.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="menuState.cpp" />
     <ClCompile Include="player.cpp" />
+    <ClCompile Include="resultsState.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="gameplayState.h" />
+    <ClInclude Include="State.h" />
     <ClInclude Include="item.h" />
+    <ClInclude Include="menuState.h" />
     <ClInclude Include="player.h" />
+    <ClInclude Include="resultsState.h" />
   </ItemGroup>
   <ItemGroup>
     <Font Include="calibri.ttf" />
