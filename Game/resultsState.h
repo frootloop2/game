@@ -1,7 +1,7 @@
 #pragma once
 
 #include "State.h"
-#include "menuState.h"
+#include "controlConfigState.h"
 
 class ResultsState : public State {
 public:
@@ -9,6 +9,7 @@ public:
 	~ResultsState() {}
 	State* update(sf::RenderWindow *window);
 
+	sf::Event event;
 	sf::Font font;
 	sf::Text text;
 };

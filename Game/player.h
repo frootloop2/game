@@ -16,7 +16,7 @@ class Player {
 		bool collects(Item item);
 		Type lineType;
 
-		float moveSpeed = 10.0f;
+		float moveSpeed = 15.0f;
 		float armLength = 150.0f;
 		float radius = 75.0f;
 
